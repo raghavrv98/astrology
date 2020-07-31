@@ -302,7 +302,7 @@ ul#menu-primary li.active:before {
 
 .desktop-menu-btn:after,
 .exalt-sidebar-menu.active .mobile-menu-btn:after {
-	content: '\f00c';
+	content: '\f00d';
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 }
@@ -604,6 +604,7 @@ ul#menu-primary li a {
 	width: 45px;
 	z-index: 99;
 	display: none;
+	width: 100px;
 }
 .dmenu-close .hbanner-logo {
 	display: block;
