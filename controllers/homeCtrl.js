@@ -64,7 +64,7 @@ module.exports = {
         var email = req.body.emailId
         var mobile = req.body.phone
         var message = "\n Name : " + name + "\nMobile Number : " + mobile + "\n Email-Id : " + email + "\n Message : " + req.body.msg
-        mailUtils.sendMail('astrolive.ashish@gmail.com', "Enquiry Mail", message)
+        mailUtils.sendMail('mystarswill@gmail.com', "Enquiry Mail", message)
         // getResponse(url, (err, result) => {
         //     if (err)
         //         console.log('Error returned', err)

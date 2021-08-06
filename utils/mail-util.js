@@ -5,14 +5,14 @@ module.exports={
     var transporter=nodemailer.createTransport({
         service:'Gmail',
         auth:{
-            user:'astrolive.ashish@gmail.com',
-            pass:'1qaz2wsx#EDC$RFV'
+            user:'mystarswill@gmail.com',
+            pass:'mystarswill@2020'
         }
     });
 
     if(msgType==='html'){
         var mailOptions={
-            from:'astrolive.ashish@gmail.com',
+            from:'mystarswill@gmail.com',
             to:receiver,
             subject:subject,
             html:msg
@@ -20,7 +20,7 @@ module.exports={
     }
     else{
         var mailOptions={
-            from:'astrolive.ashish@gmail.com',
+            from:'mystarswill@gmail.com',
             to:receiver,
             subject:subject,
             text:msg
